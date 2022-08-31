@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EngineCore">
+      <UniqueIdentifier>{f4e8597a-f902-4c08-a7a2-224396e87010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\OGEngine">
+      <UniqueIdentifier>{56c4cb85-dc3d-4116-bb5a-bd31311b897c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component">
+      <UniqueIdentifier>{8979cda4-8dc1-4927-9ee1-fda5418b0d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\BoxCollider">
+      <UniqueIdentifier>{7f2903c5-ab35-45b3-ae9a-2c6bca6d56b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\SphereCollider">
+      <UniqueIdentifier>{2a754f3b-0974-4e11-8d81-c433cafbb615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\GameObject">
+      <UniqueIdentifier>{19a2589c-f63c-407f-9a8b-9585509ab6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Main">
+      <UniqueIdentifier>{b2dbb0d8-7f9c-43b4-a7a8-06745841267b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Scene">
+      <UniqueIdentifier>{1806396b-33d8-4a76-8c95-1790eaf32463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Scene\SampleScene">
+      <UniqueIdentifier>{dc70f49f-2ddd-410e-a4af-f9a1cf6a816d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\OGEngine\EDriverType">
+      <UniqueIdentifier>{73f9ee4f-3b10-41f5-bd02-5022ec68436b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\OGEngine\OGEngineDriver">
+      <UniqueIdentifier>{9ca285ee-e7a4-4b01-b68e-77fd9aa8ad39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\OGEngine\OGEngineDriver\OpenGL">
+      <UniqueIdentifier>{0d0ed4c9-c5ec-4bfc-8688-c83afd88211c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Polyhedren">
+      <UniqueIdentifier>{d1fb9794-9d7d-4a22-bf97-f06d16bf7211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Polyhedren\Tetrahedron">
+      <UniqueIdentifier>{38e3f898-a977-4f7e-b10c-7c1765ef708d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Polyhedren\Hexahedron">
+      <UniqueIdentifier>{6d34a011-14fb-46e4-ac8d-fdff54d40561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Transform">
+      <UniqueIdentifier>{95afcb1f-70e4-45c8-82e2-3187a2b4f11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\OGEngine\ResourceManager">
+      <UniqueIdentifier>{2b0a02e1-b90a-4380-9f2a-31abc899296b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\BoxCollider.cpp">
+      <Filter>EngineCore\Component\BoxCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Component.cpp">
+      <Filter>EngineCore\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameObject.cpp">
+      <Filter>EngineCore\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Hexahedron.cpp">
+      <Filter>EngineCore\Component\Polyhedren\Hexahedron</Filter>
+    </ClCompile>
+    <ClCompile Include="source\OGEngine.cpp">
+      <Filter>EngineCore\OGEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="source\OpenGLDriver.cpp">
+      <Filter>EngineCore\OGEngine\OGEngineDriver\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ResourceManager.cpp">
+      <Filter>EngineCore\OGEngine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene.cpp">
+      <Filter>EngineCore\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SphereCollider.cpp">
+      <Filter>EngineCore\Component\SphereCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Tetrahedron.cpp">
+      <Filter>EngineCore\Component\Polyhedren\Tetrahedron</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Bookcase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\Component.h">
+      <Filter>EngineCore\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="header\BoxCollider.h">
+      <Filter>EngineCore\Component\BoxCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Scene.h">
+      <Filter>EngineCore\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="header\GameObject.h">
+      <Filter>EngineCore\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="header\OGEngine.h">
+      <Filter>EngineCore\OGEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="header\EDriverType.h">
+      <Filter>EngineCore\OGEngine\EDriverType</Filter>
+    </ClInclude>
+    <ClInclude Include="header\OpenGLDriver.h">
+      <Filter>EngineCore\OGEngine\OGEngineDriver\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SphereCollider.h">
+      <Filter>EngineCore\Component\SphereCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="header\OGEngineDriver.h">
+      <Filter>EngineCore\OGEngine\OGEngineDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ResourceManager.h">
+      <Filter>EngineCore\OGEngine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Tetrahedron.h">
+      <Filter>EngineCore\Component\Polyhedren\Tetrahedron</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Hexahedron.h">
+      <Filter>EngineCore\Component\Polyhedren\Hexahedron</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Bookcase.h" />
+  </ItemGroup>
+</Project>

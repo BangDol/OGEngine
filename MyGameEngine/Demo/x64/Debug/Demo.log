@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\KwonOhgyu\source\repos\MyGameEngine\Demo\main.cpp(4,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'OGEngine.h': No such file or directory
+  SampleScene.cpp
+C:\Users\KwonOhgyu\source\repos\MyGameEngine\Demo\SampleScene.h(4,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Scene.h': No such file or directory
+  코드를 생성하고 있습니다...
